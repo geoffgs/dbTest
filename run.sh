@@ -1,5 +1,4 @@
 #/bin/bash
-#/bin/bash
 
-sudo docker run -it --name devshell --network keystore \    
+docker run -it --rm --name devshell --network keystore \    
     geoffgs:devsh1
